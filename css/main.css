@@ -278,7 +278,20 @@ h1.nombre-sitio {
 }
 header {
   text-align: center;
-  padding: 60px 0;
+  padding: 0;
+  background-image: url(../img/encabezado.jpg);
+  background-position: center center;
+  background-size: cover;
+  height: 100vh;
+  min-height: 60rem;
+  color: #ffffff;
+}
+header.site-header {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-align: center;
 }
 img {
   max-width: 100%;
