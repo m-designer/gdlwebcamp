@@ -112,8 +112,26 @@ body {
     max-width: 1100px;
   }
 }
+.seccion {
+  padding: 3rem 0;
+}
+.seccion p {
+  font-size: 1.7rem;
+  text-align: center;
+}
 h2 {
   font-family: "Oswald", sans-serif;
+  font-size: 2.4em;
+  text-align: center;
+  text-transform: uppercase;
+}
+h2::after {
+  content: "";
+  margin: 0 auto;
+  background-image: url(../img/separador.png);
+  height: 3rem;
+  width: 10rem;
+  display: block;
 }
 
 .hidden,
@@ -389,7 +407,7 @@ div.menu-mobil span {
 
 .clearfix::before,
 .clearfix::after {
-  content: " ";
+  content: "";
   display: table;
 }
 
